@@ -47,6 +47,7 @@ namespace SimpleAPI.Controllers
             return new string[] { "Value1", "Value2" };
         }
 
+        // Single string
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
